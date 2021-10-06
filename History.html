@@ -1,0 +1,778 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2014-03-19
+    See: https://launchpad.net/bugs/1288690
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>History</title>
+    <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 101px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 85px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_red {
+    background-color: #CD214F;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.scrollmenu {
+  background-color: #8e9cb2;
+  overflow: auto;
+  white-space: nowrap;
+  width: 800px;
+  
+  
+}
+button {
+    border: none;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    }
+div.scrollmenu a {
+  display: inline-block;
+  color: #333;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+ 
+}
+img {
+    width: 25px;
+}
+   
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+embed {
+    margin-top: 1%;
+    width:100%;
+    border-style: none;
+    /* margin-left: 15px; */
+    /* float: right; */
+    /* font-style: italic; */
+    background-color:#FFFFFF;
+    overflow: auto;
+    height: 700px;
+  }
+</style>
+
+<script>
+    function flag1(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Algeria";
+      }
+    function flag1vid(){   
+        document.getElementById("video").src = "https://www.youtube.com/embed/crqljnARiKc";
+      }
+    function flag2() {
+      document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Angola";
+    }
+      function flag2vid(){ 
+      document.getElementById("video").src = "https://www.youtube.com/embed/nOCiCKyp_lU";
+      }
+    function flag3(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Benin";
+    }
+    function flag3vid(){
+        document.getElementById("video").src = "https://www.youtube.com/embed/fukC31rFBgE";
+       }
+       function flag4() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Bots_wana";
+       }
+         function flag4vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/mSqePe_3azI";
+       }
+       function flag5(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Burkina_Faso ";
+       }
+        function flag5vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/39OgGIE9CEY";
+       }
+       function flag6() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Burundi";
+       }
+       function flag6vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/tpD3aNtbdnk";
+       }
+       function flag7(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Cameroon ";
+       }
+       function flag7vid(){  
+       document.getElementById("video").src = "https://www.youtube.com/embed/vUEinnFUMKA";
+      }
+       function flag8() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Cabo_Verde";
+       }
+       function flag8vid(){ 
+       document.getElementById("video").src = "https://www.youtube.com/embed/IqAlRWHWbfk";
+        }
+       function flag9(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Central_African_Republic ";
+       }
+       function flag9vid(){  
+       document.getElementById("video").src = "https://www.youtube.com/embed/oNteX4JjTJ4";
+      } 
+      function flag10() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Chad";
+      }
+      function flag10vid(){  
+      document.getElementById("video").src = "https://www.youtube.com/embed/ibkMjK0hYIs";
+        }
+       function flag11(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Comoros ";
+       }
+       function flag11vid(){  
+       document.getElementById("video").src = "https://www.youtube.com/embed/YtpX187tAJs";
+      }4
+       function flag12() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Congo";
+       }
+       function flag12vid(){  
+       document.getElementById("video").src = "https://www.youtube.com/embed/AunkW-wpVR0";
+        }
+       function flag13(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Cote d’Ivoire ";
+       }
+        function flag13vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/DKtw7l81AV0";
+      }
+       function flag14() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Djibouti";
+       }
+         function flag14vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/699fkor1_U4";
+        }
+       function flag15(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Equatorial_Guinea ";
+       }
+        function flag15vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/kGW-oN6FKEs";
+      }
+       function flag16() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Egypt";
+       }
+         function flag16vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/hO1tzmi1V5g";
+        }
+       function flag17(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Eritrea ";
+       }
+        function flag17vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/VtwGx776-tY";
+      }
+       function flag18() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Ethiopia";
+       }
+         function flag18vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/b1it3Pvh_oM";
+        }
+       function flag19() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Gabon";
+       }
+         function flag19vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/OYV3C2sFCcU";
+        }
+       function flag20(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Gambia ";
+       }      
+       function flag20vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/Eublybffqjw";
+      }
+       function flag21() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Ghana";
+       }
+         function flag21vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/KX98rhUMBXw";
+        }
+       function flag22(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Guinea ";
+       }
+       function flag22vid(){  
+       document.getElementById("video").src = "https://www.youtube.com/embed/-Bla55lMABM";
+      }
+       function flag23() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Guinea-Bissau";
+       }
+       function flag23vid(){  
+       document.getElementById("video").src = "https://www.youtube.com/embed/8Ho3bwUgElQ";
+        }
+       function flag24(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Kenya ";
+       }
+       function flag24vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/rlhdF9fQ63s";
+      }
+       function flag25() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_the Kingdom of Lesotho";
+       }
+       function flag25vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/RiL1u8duaMU";
+        }
+       function flag26(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Liberia ";
+       }
+       function flag26vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/javt8bp5jpk";
+      }
+       function flag27() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Libya";
+       }
+       function flag27vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/SNTtyIEDrfk";
+        }
+       function flag28(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Madagascar ";
+       }
+       function flag28vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/a50vVFHn8uQ";
+      }
+       function flag29() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Malawi";
+       }
+       function flag29vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/D9Zxv4I2kvI";
+        }
+       function flag30(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Mali ";
+       }
+       function flag30vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/zJoSLy7rO8Y";
+      }
+       function flag31() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Mauritania";
+       }
+       function flag31vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/KhE1ueNw564";
+        }
+       function flag32(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Mauritius ";
+       }
+       function flag32vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/dSmPv7suVHE";
+      }
+       function flag33() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Morocco";
+       }
+       function flag33vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/XrsOol4BzsE";
+        }
+       function flag34(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Mozambique ";
+       }
+       function flag34vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/gdpAWeADTcI";
+      }
+       function flag35() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Namibia";
+       }
+       function flag35vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/M_etkrmd5fc";
+        }
+       function flag36(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Niger ";
+       }
+       function flag36vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/E9Qxlm9PsrI";
+      }
+       function flag37() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Nigeria";
+       }
+       function flag37vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/PLDEWb_phJE";
+        }
+       function flag38(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Rwanda ";
+       }
+       function flag38vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/hb6TKP70kJo";
+      }
+       function flag39() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Saharawi Arab Democratic Republic";
+       }
+       function flag39vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/Do3EB54i_x8";
+        }
+       function flag40(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Sao Tome and Principe ";
+       }      
+       function flag40vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/JYwot_chRrg";
+      }
+       function flag41() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Senegal";
+       }
+       function flag41vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/yPPMMPqGhWg";
+        }
+       function flag42(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Seychelles ";
+       }
+       function flag42vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/4AHkKYUKiHQ";
+      }
+       function flag43() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Sierra Leone";
+       }
+       function flag43vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/oBGdSDNqmOw";
+        }
+       function flag44(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Somalia ";
+       }
+       function flag44vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/M30rLQrX11s";
+      }
+       function flag45() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_South Africa";
+       }
+       function flag45vid(){ 
+         document.getElementById("video").src = "https://www.youtube.com/embed/3S0Be5wZbrs";
+        }
+       function flag46(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_South Sudan ";
+       }
+       function flag46vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/lJc_KYhxgpM";
+      }
+       function flag47() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Sudan";
+       }
+       function flag47vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/sP-pYVB33ww";
+        }
+       function flag48(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Kingdom of Swaziland ";
+       } 
+       function flag48vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/1CHHdPtYIR8";
+      }
+       function flag49() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Tanzania";
+       }
+       function flag49vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/_LuqWBwUAUg";
+        }
+       function flag50(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Togo ";
+       }
+       function flag50vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/pvi1g3khuhk";
+      }
+       function flag51() {
+         document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Tunisia";
+       }
+       function flag51vid(){  
+         document.getElementById("video").src = "https://www.youtube.com/embed/OtJVufo3IrA";
+        }
+       function flag52() {
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Uganda";
+       }
+       function flag52vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/lZSTGDuh8wY";
+      }
+      function flag53(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Zambia ";
+      }
+      function flag53vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/RRguu2UBq5o";
+      }
+       function flag54(){
+        document.getElementById("display").src = "https://en.wikipedia.org/wiki/History_of_Zimbabwe ";
+       }
+       function flag54vid(){ 
+        document.getElementById("video").src = "https://www.youtube.com/embed/faBu87DuDKA";
+      }
+    </script>
+  </head>
+  <body class="works_on_smartphone" style="flex-direction: column">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="2KPXtZ4Y"></script>
+    
+    <div class="main_page">
+      <div class="page_header floating_element">
+        
+        <span class="floating_element">
+          
+          <a href="index.html"><img src="https://mpng.subpng.com/20190607/ejz/kisspng-flag-of-south-africa-map-flag-of-the-central-afric-countries-approval-team-zimbabwe-5cfad432b26097.5066288615599421947306.jpg" style="width: 135px; margin-left: -46px; margin-top: -11px;">
+            </a>
+            
+        </span><br><br><br><br>
+        <span ><a  href="Big_image_test.html" style="margin-left: 52%;width: 100px; margin-left: 49%; text-decoration: none; color: #0e6af5;">Big image test</a>&nbsp; &nbsp; &nbsp;</span>
+      </div>
+<!--      <div class="table_of_contents floating_element">
+        <div class="section_header section_header_grey">
+          TABLE OF CONTENTS
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+-->
+      <div class="content_section floating_element">
+
+
+        <div class="section_header section_header_red">
+          <div id="about">Hello, School!</div>  
+        </div>
+        <div class="section_header section_header_red">
+          <div id="about">
+            <header  style="padding: 7px 0;
+            height: 14px;">
+            <div class="right"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><div class="fb-share-button" data-href="https://www.facebook.com/alxafrica/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Falxafrica%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></div>
+          <nav class="menu">
+              <a href="index.html" style="text-decoration: none; color: #f5e50e;">Home</a>&nbsp; &nbsp; &nbsp;
+              <a href="tweets.html" style="text-decoration: none; color: #f5e50e;">Tweet</a>&nbsp; &nbsp; &nbsp;
+              <a href="History.html" style="text-decoration: none; color: #f5e50e;">History time</a>&nbsp; &nbsp; &nbsp;
+              <a href="welcome_question.html" style="text-decoration: none; color: #f5e50e;">Quiz</a>
+            </nav>
+          </header>
+            </div>
+              </div>
+              <main style="flex-direction: row;flex: auto; "><article style=" padding: 0px 1px;">
+        <div class="section_header">
+          
+          <div class="scrollmenu" style="background-color: #8798b3;
+          overflow: auto;
+          white-space: nowrap;
+          width: 800px;
+          ">
+            <a><button type="button" onclick= "flag1(),flag1vid()" class="Algeria"><img src="https://cdn.britannica.com/34/3034-004-1A765B57/Flag-Algeria.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag2(),flag2vid()" class="Angola"><img src="https://cdn.britannica.com/12/4212-004-EBD6B5B2/Flag-Angola.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag3(),flag3vid()" class="Benin"><img src="https://cdn.britannica.com/37/5037-004-E474738C/Flag-Benin.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag4(),flag4vid()" class="Botswana"><img src="https://www.freightnews.co.za/sites/default/files/images/article/202009/botswana-flag-vector-free-download.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag5(),flag5vid()" class="Burkinafaso"> <img src="https://www.countryflags.com/wp-content/uploads/burkina-faso-flag-png-large.png" alt=""></button></a>
+              
+              <a><button onclick="flag6(),flag6vid()" class="Burundi"><img src="https://cdn.britannica.com/77/7177-004-9D72922D/Flag-Burundi.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag7(),flag7vid()" class="cameroon"><img src="https://s3.amazonaws.com/images.wpr.com/flag-pages/png1000/cm.png" alt=""></button></a>
+              
+              <a><button onclick="flag8(),flag8vid()" class="Cabo Verde"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_Cape_Verde_%282-3_ratio%29.svg/1200px-Flag_of_Cape_Verde_%282-3_ratio%29.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag9(),flag9vid()" class="Central African Republic"><img src="https://cdn.britannica.com/80/7180-004-8AFA2B44/Flag-Central-African-Republic.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag10(),flag10vid()" class="Chad"><img src="https://www.publicdomainpictures.net/pictures/340000/nahled/chad-flag-themes-idea-design-1588674963X0f.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag11(),flag11vid()" class="Comoros"><img src="https://cdn.britannica.com/40/7740-050-C43A463A/Flag-Comoros.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag12(),flag12vid()" class="Congo"><img src="https://cdn.britannica.com/94/7194-004-5FA84A72/Flag-Democratic-Republic-of-the-Congo.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag13(),flag13vid()" class="Cote d’Ivoire"><img src="https://cdn.britannica.com/48/5048-004-EA370A21/Flag-Cote-dIvoire.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag14(),flag14vid()" class="Djibouti"><img src="https://cdn.britannica.com/06/06-004-29FFD888/Flag-Djibouti.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag15(),flag15vid()" class="Equatorial Guinea"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1200px-Flag_of_Equatorial_Guinea.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag16(),flag16vid()" class="Egypt"><img src="https://cdn.britannica.com/85/185-004-1EA59040/Flag-Egypt.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag17(),flag17vid()" class="Eritrea"><img src="https://cdn.britannica.com/09/09-004-63D8C33D/Flag-Eritrea.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag18(),flag18vid()" class="Ethiopia"><img src="https://cdn.britannica.com/12/12-004-A40EEB6F/Flag-Ethiopia.jpg" alt=""></button></la>
+              
+              <a><button onclick="flag19(),flag19vid()" class="Gabon"><img src="https://cdn.britannica.com/85/7185-004-EBE5DBE5/Flag-Gabon.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag20(),flag20vid()" class="Gambia"><img src="https://cdn.britannica.com/52/5052-004-C6FC398B/Flag-of-The-Gambia.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag21(),flag21vid()" class="Ghana"><img src="https://cdn.britannica.com/54/5054-004-A09ABCDF/Flag-Ghana.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag22(),flag22vid()" class="Guinea"><img src="https://cdn.britannica.com/56/5056-004-0E251CE7/Flag-Guinea.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag23(),flag23vid()" class="Guinea-Bissau"><img src="https://cdn.britannica.com/58/5058-004-49C2D897/Flag-Guinea-Bissau.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag24(),flag24vid()" class="Kenya"><img src="https://cdn.britannica.com/15/15-004-B5D6BF80/Flag-Kenya.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag25(),flag25vid()" class="the Kingdom of Lesotho"><img src="https://alchetron.com/cdn/lesotho-b91f83ed-1402-41b4-bf06-4a1dc032186-resize-750.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag26(),flag26vid()" class="Liberia"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Liberia.svg" alt=""></button></a>
+              
+              <a><button onclick="flag27(),flag27vid()" class="Libya"><img src="https://cdn.britannica.com/37/3037-004-1C8F9958/Flag-Libya.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag28(),flag28vid()" class="Madagascar"><img src="https://cdn.britannica.com/46/2246-004-17A6E838/Flag-Madagascar.jpg" alt=""></button></a>
+            
+              <a><button onclick="flag29(),flag29vid()" class="Malawi"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1200px-Flag_of_Malawi.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag30(),flag30vid()" class="Mali"><img src="https://cdn.britannica.com/62/5062-004-B45A3B5A/Flag-Mali.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag31(),flag31vid()" class="Mauritania"><img src="https://cdn.britannica.com/64/5064-004-FEF780F0/Flag-Mauritania.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag32(),flag32vid()" class="Mauritius"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag33(),flag33vid()" class="Morocco"><img src="https://www.worldatlas.com/img/flag/ma-flag.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag34(),flag34vid()" class="Mozambique"><img src="https://cdn.britannica.com/23/4223-004-76407A84/Flag-Mozambique.jpg" alt=""></button></a>
+             
+              <a><button onclick="flag35(),flag35vid()" class="Namibia"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1200px-Flag_of_Namibia.svg.png" alt=""></button></a>
+            
+              <a><button onclick="flag36(),flag36vid()" class="Niger"><img src="https://www.drapeaux-flags.com/images/drapeaux/png_norm/NE.png" alt=""></button></a>
+            
+              <a><button onclick="flag37(),flag37vid()" class="Nigeria"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Nigeria_Flag.svg/1280px-Nigeria_Flag.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag38(),flag38vid()" class="Rwanda"><img src="https://www.worldatlas.com/img/flag/rw-flag.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag39(),flag39vid()" class="Saharawi Arab Democratic Republic"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/1200px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png" alt=""></button></a>
+             
+              <a><button onclick="flag40(),flag40vid()" class="Sao Tome and Principe"><img src="https://elmersflag.com/wp-content/uploads/2013/08/sao-tome-principe-flag.jpg" alt=""></button></a>
+             
+              <a><button onclick="flag41(),flag41vid()" class="Senegal"><img src="https://cdn.britannica.com/70/5070-004-2963C5E1/Flag-Senegal.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag42(),flag42vid()" class="Seychelles"><img src="https://cdn.britannica.com/93/4093-004-A9F95AC3/Flag-Seychelles.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag43(),flag43vid()" class="Sierra Leone"><img src="https://cdn.hipwallpaper.com/i/47/99/F9T8yc.png" alt=""></button></a>
+              
+              <a><button onclick="flag44(),flag44vid()" class="Somalia"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/1200px-Flag_of_Somalia.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag45(),flag45vid()" class="South Africa"><img src="https://cdn.britannica.com/200x500/27/4227-050-00DBD10A/Flag-South-Africa.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag46(),flag46vid()" class="South Sudan"><img src="https://www.countryflags.com/wp-content/uploads/south-sudan-flag-png-large.png" alt=""></button></a>
+              
+              <a><button onclick="flag47(),flag47vid()" class="Sudan"><img src="https://cdn.britannica.com/96/4496-004-278A6211/Flag-Sudan.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag48(),flag48vid()" class="Kingdom of Swaziland"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1200px-Flag_of_Eswatini.svg.png" alt=""></button></a>
+            
+              <a><button onclick="flag49(),flag49vid()" class="Tanzania"><img src="https://www.bestcustomflags.com/wp-content/uploads/2016/06/tanzania-flag.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag50(),flag50vid()" class="Togo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1200px-Flag_of_Togo.svg.png" alt=""></button></a>
+              
+              <a><button onclick="flag51(),flag51vid()" class="Tunisia"><img src="https://cdn.britannica.com/41/3041-004-F1D6DEFC/Flag-Tunisia.jpg" alt=""></button></a>
+              
+              <a><button onclick="flag52(),flag52vid()" class="Uganda"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/2560px-Flag_of_Uganda.svg.png" alt=""></button></a>
+           
+              <a><button onclick="flag53(),flag53vid()" class="Zambia "><img src="https://www.countryflags.com/wp-content/uploads/zambia-flag-png-large.png" alt=""></button></a>
+             
+              <a><button onclick="flag54(),flag54vid()" class="Zimbabwe"><img src="https://www.countryflags.com/wp-content/uploads/zimbabwe-flag-png-large.png" alt=""></button></a>
+             
+          </div>
+        </div>
+        
+        <div class="content_section_text">
+          
+          <div class="content_section_text">
+            <embed id="display" src="welcome_history.html" title="">
+            </embed>
+        </div>
+        </div>
+        <div class="section_header">
+          <div id="changes" style="height: 5px;"></div>
+          
+        </div>
+        <iframe width="100%" height="480" id="video" src="https://www.youtube.com/embed/weP4HorA8M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              </div>
+       
+      </article></main>
+      <footer style="padding: 121px 3px;
+      height: 80px;
+  ">
+      <div class="section_header">
+        
+    
+  <div  class="footer"><p >Thank you so much for giving me this chance to have this experince. <br> I appreciate the time you spent creating this program. I enjoyed doing this project.
+      <br> I loved the challenge, and I love to be part of your innovative training program. </p><br>
+</div>
+<div>
+  Made by Girmachew Ayele Redie Girmachew for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.
+  </footer>
+      </div>
+      
+    </div>
+  </div>
+  <div class="validator">
+  </div>
+</body>
+</html>
+
+
+

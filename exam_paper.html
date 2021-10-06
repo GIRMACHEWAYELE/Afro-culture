@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam paper</title>
+ <style>
+   body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+body {
+  text-align: left;
+  padding-left: 25px;
+  background-color: #fdfdfb;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+.Correct {
+  background-color: lawngreen;
+}
+
+.Incorrect {
+  background-color: red;
+}
+#submit{
+  margin-left: 44%;
+  display: inline-block;
+  padding: 6px 25px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#707c8e;;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+#submit:hover {background-color: #494d49}
+#submit:active {
+  background-color: #494d49;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ #try-again {
+  margin-left: 44%;
+  display: inline-block;
+  padding: 6px 25px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#707c8e;;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+#try-again:hover {background-color: #494d49}
+
+
+#try-again:active {
+  background-color: #494d49;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ </style>
+ 
+<script>
+ 
+  function check() {
+    {
+  var x = document.forms["form1"]["yourname"].value;
+  var y = document.forms["form1"]["address"].value;
+   if (x == "" && y == "") {
+    alert("Name and Country must be filled out");
+    return false;
+}
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+   
+  if (y == "") {
+    alert("Country must be filled out");
+    return false;
+   }
+   
+ 
+}
+  var q1 = document.quiz.q1.value;
+  var q2 = document.quiz.q2.value;
+  var q3 = document.quiz.q3.value;
+  var q4 = document.quiz.q4.value;
+  var q5 = document.quiz.q5.value;
+  var q6 = document.quiz.q6.value;
+  var q7 = document.quiz.q7.value;
+  var q8 = document.quiz.q8.value;
+  var q9 = document.quiz.q9.value;
+  var q10 = document.quiz.q10.value;
+  var q11 = document.quiz.q11.value;
+  var q12 = document.quiz.q12.value;
+  var q13 = document.quiz.q13.value;
+  var q14 = document.quiz.q14.value;
+  var q15 = document.quiz.q15.value;
+  var q16 = document.quiz.q16.value;
+  var q17 = document.quiz.q17.value;
+  var q18 = document.quiz.q18.value;
+  var q19 = document.quiz.q19.value;
+  var q20 = document.quiz.q20.value;
+  var q21 = document.quiz.q21.value;
+  var c = 0;
+  
+  document.getElementById("submit").style.display='none';
+  document.getElementById("try-again").style.display='block';
+  if (q1 == "a") { 
+
+    document.getElementById("Color1").style.color = "green";c++;
+  } else{document.getElementById("Color1").style.color = "red";}
+
+  if (q2 == "c") {
+    document.getElementById("Color2").style.color = "green";c++;
+  }else{document.getElementById("Color2").style.color = "red";}
+
+ 
+  if (q3 == "b") {
+    document.getElementById("Color3").style.color = "green";c++;
+  } else{document.getElementById("Color3").style.color = "red";}
+
+  if (q4 == "c") {
+    document.getElementById("Color4").style.color = "green";c++;
+  } else{document.getElementById("Color4").style.color = "red";}
+
+  if (q5 == "b") {
+    document.getElementById("Color5").style.color = "green";c++;
+  } else{document.getElementById("Color5").style.color = "red";}
+  if (q6 == "d") { 
+
+document.getElementById("Color6").style.color = "green";c++;
+} else{document.getElementById("Color6").style.color = "red";}
+
+if (q7 == "a") {
+document.getElementById("Color7").style.color = "green";c++;
+}else{document.getElementById("Color7").style.color = "red";}
+
+
+if (q8 == "b") {
+document.getElementById("Color8").style.color = "green";c++;
+} else{document.getElementById("Color8").style.color = "red";}
+
+if (q9 == "a") {
+document.getElementById("Color9").style.color = "green";c++;
+} else{document.getElementById("Color9").style.color = "red";}
+
+if (q10 == "c") {
+document.getElementById("Color10").style.color = "green";c++;
+} else{document.getElementById("Color10").style.color = "red";}
+
+if (q11 == "c") { 
+document.getElementById("Color11").style.color = "green";c++;
+} else{document.getElementById("Color11").style.color = "red";}
+
+if (q12 == "b") {
+document.getElementById("Color12").style.color = "green";c++;
+}else{document.getElementById("Color12").style.color = "red";}
+
+
+if (q13 == "a") {
+document.getElementById("Color13").style.color = "green";c++;
+} else{document.getElementById("Color13").style.color = "red";}
+
+if (q14 == "d") {
+document.getElementById("Color14").style.color = "green";c++;
+} else{document.getElementById("Color14").style.color = "red";}
+
+if (q15 == "a") {
+document.getElementById("Color15").style.color = "green";c++;
+} else{document.getElementById("Color15").style.color = "red";}
+
+if (q16 == "d") { 
+document.getElementById("Color16").style.color = "green";c++;
+} else{document.getElementById("Color16").style.color = "red";}
+
+if (q17 == "b") {
+document.getElementById("Color17").style.color = "green";c++;
+}else{document.getElementById("Color17").style.color = "red";}
+
+
+if (q18 == "a") {
+document.getElementById("Color18").style.color = "green";c++;
+} else{document.getElementById("Color18").style.color = "red";}
+
+if (q19 == "c") {
+document.getElementById("Color19").style.color = "green";c++;
+} else{document.getElementById("Color19").style.color = "red";}
+
+if (q20 == "d") {
+document.getElementById("Color20").style.color = "green";c++;
+} else{document.getElementById("Color20").style.color = "red";}
+
+if (q21 == "b") {
+document.getElementById("Color21").style.color = "green";c++;
+} else{document.getElementById("Color21").style.color = "red";}
+
+
+   final = (c / 21) * 100;
+ 
+  
+  DispWin = window.open('','NewWin','toolbar=no,status=no,width=100% ')
+  message = "<b>Hello </b>" + document.form1.yourname.value;
+  message += "<b> from </b>" + document.form1.address.value + "<br><br>";
+  message += "<b>Thank you for taking the exam </b><br><br>"
+  message += "<b>Here is your result</b><br><br>"
+  message += "<b>Scor: </b>" + final + "%  Correct! <br><br>"
+  DispWin.document.write(message);
+  Excellent = "<b>Excellent </b>";
+  Good = "<b>Good </b>";
+  Fail = "<b>Fail </b> ";
+  if(final >= 80){
+    DispWin.document.write("<b>Status: </b>" + Excellent);"<br><br>";
+    
+   
+  } if(final< 50){
+    DispWin.document.write("<b>Status: </b>" + Fail);}
+  if (final<80 && final>=50){DispWin.document.write("<b>Status: </b>" + Good);}
+}
+
+
+</script>
+</head>
+<body class="works_on_smartphone">
+  
+   <form name="form1">
+    <p><b>Name:</b> <input TYPE="TEXT" SIZE="20" NAME="yourname" style="margin-left:16px;">
+    <b>&nbsp; Country:</b> <input TYPE="TEXT" SIZE="20" NAME="address">
+    </p>
+    <br>
+   </form>
+  
+   <form id="quiz" name="quiz" style="margin-left: 20px; width: 50%;">
+  
+    <p id="Color1">1.Which of the following is a 
+      result of a nationalist movement in countries like Nigeria and Kenya?</p>
+  
+    <input type="radio" name="q1" value="a" class="Correct">Independence<br>
+    <input type="radio" name="q1" value="b" class="Incorrect">Poverty<br>
+    <input type="radio" name="q1" value="c" class="Incorrect">The spread of AIDS<br>
+    <input type="radio" name="q1" value="d" class="Incorrect">Illiteracy<br>
+    
+
+    <p id="Color2">2.What role did Nelson Mandela and F.W. de Klerk play in
+       the practice of Apartheid in South Africa?</p>
+  
+    <input type="radio" name="q2" value="a" class="Incorrect">They created apartheid<br>
+    <input type="radio" name="q2" value="b" class="Incorrect">They enhanced apartheid<br>
+    <input type="radio" name="q2" value="c" class="Correct">They worked to abolish apartheid.<br>
+    <input type="radio" name="q2" value="d" class="Incorrect">They helped maintain apartheid<br>
+    
+    
+    <p id="Color3">3.The purpose of the Pan African Movement in Africa is to:</p>
+  
+    <input type="radio" name="q3" value="a" class="Incorrect">Create one African language<br>
+    <input type="radio" name="q3" value="b" class="Correct">Create one unified African government<br>
+    <input type="radio" name="q3" value="c" class="Incorrect">Spread traditional religious beliefs<br>
+    <input type="radio" name="q3" value="d" class="Incorrect">Develop a unified political identity<br> 
+    
+  
+    <p id="Color4">4.Which of the following is NOT one of Africa's religious or ethnic groups?</p>
+ 
+    <input type="radio" name="q4" value="a" class="Incorrect">Ashanti<br>
+    <input type="radio" name="q4" value="b" class="Incorrect">Swahili<br>
+    <input type="radio" name="q4" value="c" class="Correct">Axum<br>
+    <input type="radio" name="q4" value="d" class="Incorrect">Bantu<br>
+    
+
+    <p id="Color5">5.What is colonialism?</p>
+
+    <input type="radio" name="q5" value="a" class="Incorrect">The uniting of a country's people to fight for their independence<br>
+    <input type="radio" name="q5" value="b" class="Correct">When one country takes control over another country and
+     then sends its people to settle that country<br>
+    <input type="radio" name="q5" value="c" class="Incorrect">The uniting of a continent's people to fight for their independence.<br>
+    <input type="radio" name="q5" value="d" class="Incorrect">Laws created to enforce segregation in South Africa<br>
+    
+   
+    <p id="Color6">6.How did colonialism lead to civil war in Africa?</p>
+   
+    <input type="radio" name="q6" value="a" class="Incorrect">Europeans fought against each other for control of Africa's natural resources.<br>
+    <input type="radio" name="q6" value="b" class="Incorrect">Africans fought Europeans for control over their natural resources.<br>
+    <input type="radio" name="q6" value="c" class="Incorrect">Africans welcomed the use of their natural resources for European factories.<br>
+    <input type="radio" name="q6" value="d" class="Correct">African ethnic groups fought against each other for control 
+    of their country after independence from colonial rule.<br>
+    
+    
+    <p id="Color7">7.The main problem with colonial boundaries drawn by Europeans was</p>
+
+    <input type="radio" name="q7" value="a" class="Correct">Europeans drew the borders without considering the
+     loyalties and territories of ethnic groups.<br>
+    <input type="radio" name="q7" value="b" class="Incorrect">The border can be changed anytime.<br>
+    <input type="radio" name="q7" value="c" class="Incorrect">Europeans drew the borders without considering natural resources<br>
+    <input type="radio" name="q7" value="d" class="Incorrect">The borders are not official and have never been made legal.<br>
+    
+     
+    
+    <p id="Color8">8. What belief was key in the push for African independence?</p>
+   
+    <input type="radio" name="q8" value="a" class="Incorrect">Patriotism<br>
+    <input type="radio" name="q8" value="b" class="Correct">Nationalism<br>
+    <input type="radio" name="q8" value="c" class="Incorrect">Discrimination<br>
+    <input type="radio" name="q8" value="d" class="Incorrect">Isolationsim<br> 
+    
+    
+    <p id="Color9">9. Many of the protest by Africans after WW2 were against:</p>
+ 
+    <input type="radio" name="q9" value="a" class="Correct">Independence <br>
+    <input type="radio" name="q9" value="b" class="Incorrect">Discrimination <br>
+    <input type="radio" name="q9" value="c" class="Incorrect">Apartheid<br>
+    <input type="radio" name="q9" value="d" class="Incorrect">Nationalism<br>
+    
+    <p id="Color10">10. How did colonialism cause conflict between Africans and Europeans? </p>
+    <input type="radio" name="q10" value="a" class="Correct">Africans fought Europeans for control over their natural resources.<br>
+    <input type="radio" name="q10" value="b" class="Incorrect">Europeans fought each other for control of Africa's natural resources.<br>
+    <input type="radio" name="q10" value="c" class="Incorrect">African ethnic groups fought one another for control of their
+     country after independence from colonial rule.<br>
+    <input type="radio" name="q10" value="d" class="Incorrect">Africans welcomed the use of their natural resources for European factories.<br>
+    
+     
+    <p id="Color11">11.Apartheid means:</p>
+    <input type="radio" name="q11" value="a" class="Incorrect">Lowered Importance<br>
+    <input type="radio" name="q11" value="b" class="Incorrect">Discrimination<br>
+    <input type="radio" name="q11" value="c" class="Correct">Apartness<br>
+    <input type="radio" name="q11" value="d" class="Incorrect">Togetherness<br>
+    
+
+    <p id="Color12">12.After independence, many countries in Africa continued to face challenges due to:</p>
+  
+    <input type="radio" name="q12" value="a" class="Incorrect">Europeans used up all the natural resources.<br>
+    <input type="radio" name="q12" value="b" class="Correct">Countries maintained the same colonial boundaries, which forced conflicting ethnic and
+     religious groups into the same political boundaries.<br>
+    <input type="radio" name="q12" value="c" class="Incorrect">Political differences due to nationalism<br>
+    <input type="radio" name="q12" value="d" class="Incorrect">The return of tribal  lands to their original borders<br>
+    
+
+    <p id="Color13">13.The following was NOT a product of apartheid: </p>
+ 
+    <input type="radio" name="q13" value="a" class="Correct">The black South African vote only counted as 1/2 of a white vote.<br>
+    <input type="radio" name="q13" value="b" class="Incorrect">Political power was reserved for whites<br>
+    <input type="radio" name="q13" value="c" class="Incorrect">Black South Africans could not vote<br>
+    <input type="radio" name="q13" value="d" class="Incorrect">Black South Africans had to live in separate areas called homelands<br> 
+    
+      
+    <p id="Color14">14.As Europeans colonized Africa, they abused African wealth to their own advantage. Europeans almost never treated Africans as fellow citizens. Furthermore, African societies and cultures were humiliated and viewed as inferior and strange. By the end of WWII,  Europe was drained of the resources it needed to properly rule its colonies. Most importantly, Africans wanted to control their own government and natural resources.
+      This paragraph describes the causes for:</p>
+   
+    <input type="radio" name="q14" value="a" class="Incorrect">Slavery<br>
+    <input type="radio" name="q14" value="b" class="Incorrect">Apartheid<br>
+    <input type="radio" name="q14" value="c" class="Incorrect">Colonialism<br>
+    <input type="radio" name="q14" value="d" class="Correct">Nationalism <br>
+      
+    <p id="Color15">15.Who was the first black South African to be elected President  of South African in 1994, after being imprisoned for 27 years for his 
+      anti-apartheid protests as a member of the African National Congress?</p>
+  
+    <input type="radio" name="q15" value="a" class="Correct">Nelson Mandela<br>
+    <input type="radio" name="q15" value="b" class="Incorrect">Kwame Nkrumah<br>
+    <input type="radio" name="q15" value="c" class="Incorrect">Desmond Tutu<br>
+    <input type="radio" name="q15" value="d" class="Incorrect">Jomo Kenyatta<br>
+    
+        
+    <p id="Color16">16.In 1946 British colonial leaders combined southern and northern Sudan into a single country. The inhabitants (natives) of southern Sudan mostly practice Christianity and traditional African religions. Northern Sudan is mostly Arab Muslims. Combining the citizens in these previously separate regions led to the first Sudanese civil war and later caused political and ethnic conflict.
+      Based on the passage above, what caused civil war in Sudan?</p>
+   
+    <input type="radio" name="q16" value="a" class="Incorrect">The African Nationalist movement <br>
+    <input type="radio" name="q16" value="b" class="Incorrect">Apartheid<br>
+    <input type="radio" name="q16" value="c" class="Incorrect">The Pan-African movement<br>
+    <input type="radio" name="q16" value="d" class="Correct">New political borders<br>
+    
+
+    <p id="Color17">17.Pan-Africanism is to the continent as Nationalism is to a ____________.</p>
+   
+    <input type="radio" name="q17" value="a" class="Incorrect">Hemisphere<br>
+    <input type="radio" name="q17" value="b" class="Correct">Country<br>
+    <input type="radio" name="q17" value="c" class="Incorrect">State<br>
+    <input type="radio" name="q17" value="d" class="Incorrect">City<br>
+    
+          
+    <p id="Color18">18.Segregation is the the United States as _____________ is to South Africa.</p>
+    
+    <input type="radio" name="q18" value="a" class="Correct">Apartheid<br>
+    <input type="radio" name="q18" value="b" class="Incorrect">Settlement<br>
+    <input type="radio" name="q18" value="c" class="Incorrect">Pan-Africanism<br>
+    <input type="radio" name="q18" value="d" class="Incorrect">Independence<br>
+    
+        
+    <p id="Color19">19.The purpose of the Pan-African movement in Africa was to:</p>
+   
+    <input type="radio" name="q19" value="a" class="Incorrect">Create a new African country<br>
+    <input type="radio" name="q19" value="b" class="Incorrect">Create a new African continent <br>
+    <input type="radio" name="q19" value="c" class="Correct">Unite all of Africa for for independence<br>
+    <input type="radio" name="q19" value="d" class="Incorrect">Unite an individual African country for independence<br>
+    
+        
+    <p id="Color20">20. Who was the president in South Africa that ended apartheid?</p>
+  
+    <input type="radio" name="q20" value="a" class="Incorrect">Desmond Tutu<br>
+    <input type="radio" name="q20" value="b" class="Incorrect">Nelson Mandela<br>
+    <input type="radio" name="q20" value="c" class="Incorrect">Kwame Nkrumah<br>
+    <input type="radio" name="q20" value="d" class="Correct">F.W. de Klerk <br>
+    
+          
+    <p id="Color21">21.How did apartheid impact the non-white population South Africa?</p>
+   
+    <input type="radio" name="q21" value="a" class="Incorrect">They were treated as equals after the British left South Africa in 1961.<br>
+    <input type="radio" name="q21" value="b" class="Correct">They were not allowed to vote and had to use separate facilities.<br>
+    <input type="radio" name="q21" value="c" class="Incorrect">They were allowed to vote if they were educated.<br>
+    <input type="radio" name="q21" value="d" class="Incorrect">They lived in separate areas for the white South Africans, but there was no relationship difference between them.
+    <br>
+    <br>
+        
+    <input type="button" id="submit" value="Submit" onclick=" check()" onclick="return validateForm()">
+    <button  onClick="window.location.reload();" Id="try-again" style="display: none;">Try again</button>
+    <br>
+    <br>
+   </form>
+ </body>
+</html>

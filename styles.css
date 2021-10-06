@@ -1,0 +1,10 @@
+.devider{
+    height: 87px;
+    padding: 5px 6px; 
+     background-color: #8E9CB2;
+      color: #FFFFFF;
+      width: 100%;
+      font-weight: bold;
+      font-size: 112%;
+      text-align: center;
+}
